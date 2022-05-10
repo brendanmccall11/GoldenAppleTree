@@ -1,0 +1,6 @@
+name: GoldenAppleTree
+version: '${version}'
+main: org.brendanmccall11.goldenappletree.GoldenAppleTree
+api-version: 1.18
+authors: [ Beximite ]
+description: Golden Apples and Enchanted Golden Apples have a small chance of dropping from a leaf block.
