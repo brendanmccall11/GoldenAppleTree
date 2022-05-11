@@ -8,11 +8,9 @@ import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.block.LeavesDecayEvent;
 import org.bukkit.event.entity.EntityExplodeEvent;
 import org.bukkit.inventory.ItemStack;
-
 import java.util.Objects;
 import java.util.Random;
-
-public class GoldenApple extends GoldenAppleTree{
+public class Plugin extends GoldenAppleTree{
     @EventHandler
     public void onLeafBlockBreak(BlockBreakEvent event) {
         blockBreak(event.getBlock(), event.getPlayer());
