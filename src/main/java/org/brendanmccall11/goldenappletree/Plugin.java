@@ -10,6 +10,7 @@ import org.bukkit.event.entity.EntityExplodeEvent;
 import org.bukkit.inventory.ItemStack;
 import java.util.Objects;
 import java.util.Random;
+
 public class Plugin extends GoldenAppleTree{
     @EventHandler
     public void onLeafBlockBreak(BlockBreakEvent event) {
