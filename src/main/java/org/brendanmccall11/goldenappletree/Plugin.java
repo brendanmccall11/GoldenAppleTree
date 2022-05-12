@@ -13,6 +13,7 @@ import java.util.Objects;
 import java.util.Random;
 
 public class Plugin implements Listener {
+
     @EventHandler
     public void onLeafBlockBreak(BlockBreakEvent event) {
         blockBreak(event.getBlock(), event.getPlayer());
